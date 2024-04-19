@@ -1,0 +1,370 @@
+body{
+    background-color: rgba(40, 228, 210, 0.636);
+
+}
+.png{
+    width:40px;
+    height:40px;
+    float:left;
+    border-radius: 50px;
+    border:1px solid rgb(0, 81, 255);
+}
+.photo{
+    width:500px;
+    height:auto;
+    float:right;
+    position:absolute;
+    top:50px;
+    bottom:70%;
+    left:40%;
+    border-radius:35px;
+    filter:drop-shadow(12px 8px 12px rgb(0, 138, 202));
+    mix-blend-mode:multiply;
+}
+nav a{
+    display:inline;
+    padding:4px;
+    font-weight: bold;
+    text-decoration:none;
+    float:left;
+    margin-left:20px;
+    color:rgb(41, 61, 244);
+    border:2px solid black;
+    border-radius: 5px;
+    border-inline: 4px rgb(0, 85, 255);
+    background-color:rgba(52, 218, 171, 0.775);
+}
+nav a:hover{
+    box-shadow:6px 2px 6px rgb(0, 85, 255);
+    text-shadow:6px 2px 4px rgb(18, 148, 229) ;
+}
+.ct{
+    font-size: larger;
+    list-style: none;
+    line-height: 30px;
+    text-decoration: none;
+    color:rgb(106, 103, 103);
+
+}
+.ct:hover{
+    text-shadow: 4px 2px 4px rgb(19, 39, 214);
+}
+.cert{
+    width:20px;
+    height:18px;
+}
+.cert:hover{
+    text-shadow: 4px 2px 4px rgb(19, 39, 214);
+}
+
+.h1{
+    font-size:xx-large;
+    color:rgb(81, 80, 80);
+}
+.h2{
+    font-size:35px;
+    text-shadow: 6px 2px 6px rgb(0, 58, 157);
+    animation: colors 3s infinite;
+}
+@keyframes colors{
+    20%{
+        color:rgb(255, 0, 0);
+    }
+    40%{
+        color:rgb(44, 181, 10);
+    }
+    60%{
+        color:rgb(131, 22, 255);
+    }
+    80%{
+        color:rgb(0, 64, 255);
+    }
+    100%{
+        color:#f70da9;
+    }
+}
+h3{
+    text-align:center;
+}
+.name{
+    margin-left:30px;
+    line-height: 1px;
+}
+pre{
+    color:grey;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.web {
+    margin-left:0px;
+    margin-top: 100px;
+    color: #333;
+}
+h1{
+    margin-left:0px;
+    color:#333;
+    margin-top: 50px;
+}
+button{
+    margin-left: 20px;
+    padding-inline: 20px;
+    padding-block: 5px;
+    border-radius:20px;
+    background-color: rgb(5, 48, 206);
+    font-weight:bold;
+    color:rgb(0, 210, 242);
+    border:2px groove rgb(29, 229, 255)
+}
+button:hover{
+    box-shadow: 10px 2px 18px  blue;
+    border-color:rgb(244, 24, 229)
+}
+.lis{
+    color:rgb(98, 98, 98);
+}
+
+.photo{
+    border:none;
+    
+}
+#con{
+    text-align:center;
+    margin-top:150px;
+}
+#con-c{
+    text-align:center;
+    line-height:1px;
+}
+
+.nab:hover{
+    box-shadow:6px 2px 6px rgb(0, 94, 255);
+    text-shadow:6px 2px 4px rgb(18, 183, 229) ;
+}
+pre{
+    color:rgb(80, 78, 78);
+    font-size: 1em;
+
+}
+.nab{
+    text-decoration:none;
+    font-size:larger;
+    color:blue;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:4px;
+    border:2px solid rgba(0, 0, 0, 0);
+    width:100px;
+    
+}
+#git{
+    width:25px;
+    height:25px;
+    margin-left: 4px;
+    border:1px solid black;
+    border-radius:50px;
+}
+#you{
+    width:25px;
+    height:25px;
+    margin-left: 4px;
+}
+#ins{
+    width:25px;
+    height:25px;
+    margin-left:4px;
+}
+
+/* Responsivness*/
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 480px){
+    body{
+        background-color: rgba(40, 228, 210, 0.636);
+    
+    }
+    .png{
+        width:30px;
+        height:30px;
+        float:left;
+        border-radius: 50px;
+        border:1px solid rgb(0, 81, 255);
+    }
+    .photo{
+        width:300px;
+        height:auto;
+        float:right;
+        position:absolute;
+        top:60px;
+        bottom:30%;
+        left: 35%;
+        border-radius:35px;
+        filter:drop-shadow(12px 8px 12px rgb(0, 138, 202));
+        mix-blend-mode:multiply;
+    }
+    nav a{
+        display:inline;
+        padding:2px;
+        font-weight: bold;
+        text-decoration:none;
+        float:left;
+        margin-left:12px;
+        color:rgb(41, 61, 244);
+        border:2px solid black;
+        border-radius: 5px;
+        border-inline: 4px rgb(0, 85, 255);
+        background-color:rgba(52, 218, 171, 0.775);
+    }
+    nav a:hover{
+        box-shadow:6px 2px 6px rgb(0, 85, 255);
+        text-shadow:6px 2px 4px rgb(18, 148, 229) ;
+    }
+    .ct{
+        font-size: larger;
+        list-style: none;
+        line-height: 30px;
+        text-decoration: none;
+        color:rgb(106, 103, 103);
+    
+    }
+    .ct:hover{
+        text-shadow: 4px 2px 4px rgb(19, 39, 214);
+    }
+    .cert{
+        width:20px;
+        height:18px;
+    }
+    .cert:hover{
+        text-shadow: 4px 2px 4px rgb(19, 39, 214);
+    }
+    
+    .h1{
+        font-size:26px;
+        color:rgb(81, 80, 80);
+    }
+    .h2{
+        font-size:28px;
+        text-shadow: 6px 2px 6px rgb(0, 58, 157);
+        animation: colors 3s infinite;
+    }
+    @keyframes colors{
+        20%{
+            color:rgb(255, 0, 0);
+        }
+        40%{
+            color:rgb(44, 181, 10);
+        }
+        60%{
+            color:rgb(131, 22, 255);
+        }
+        80%{
+            color:rgb(0, 64, 255);
+        }
+        100%{
+            color:#f70da9;
+        }
+    }
+    h3{
+        text-align:center;
+    }
+    .name{
+        margin-left:30px;
+        line-height: 1px;
+    }
+    
+    pre{
+        color:grey;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .web {
+        margin-left:0px;
+        margin-top: 40px;
+        color: #333;
+    }
+    .hyp{
+        margin-left:0px;
+        color:#333;
+        margin-top: 220px;
+    }
+    button{
+        margin-left: 15px;
+        padding-inline: 15px;
+        padding-block: 3px;
+        border-radius:20px;
+        background-color: rgb(5, 48, 206);
+        font-weight:bold;
+        color:rgb(0, 210, 242);
+        border:2px groove rgb(29, 229, 255)
+    }
+    button:hover{
+        box-shadow: 10px 2px 18px  blue;
+        border-color:rgb(244, 24, 229)
+    }
+    .lis{
+        color:rgb(98, 98, 98);
+        line-height: 20px;
+    }
+    
+    .photo{
+        border:none;
+        
+    }
+    #con{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #con-c{
+        line-height:1px;
+    }
+    
+    .nab:hover{
+        box-shadow:6px 2px 6px rgb(0, 94, 255);
+        text-shadow:6px 2px 4px rgb(18, 183, 229) ;
+    }
+    pre{
+        color:rgb(80, 78, 78);
+        font-size: 1em;
+    
+    }
+    .nab{
+        text-decoration:none;
+        font-size:larger;
+        color:blue;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        padding:4px;
+        border:2px solid rgba(0, 0, 0, 0);
+        width:100px;
+        
+    }
+    #git{
+        width:25px;
+        height:25px;
+        margin-left: 4px;
+        border:1px solid black;
+        border-radius:50px;
+    }
+    #you{
+        width:25px;
+        height:25px;
+        margin-left: 4px;
+    }
+    #ins{
+        width:25px;
+        height:25px;
+        margin-left:4px;
+    }
+    #foot{
+        position: absolute;
+        left:50%;
+    }
+    
+}
