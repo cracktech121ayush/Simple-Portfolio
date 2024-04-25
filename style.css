@@ -195,14 +195,14 @@ pre{
         border-radius: 50px;
         border:1px solid rgb(0, 81, 255);
     }
-    .photo{
-        width:300px;
+   .photo{
+        width:200px;
         height:auto;
         float:right;
         position:absolute;
-        top:60px;
-        bottom:30%;
-        left: 35%;
+        top:110px;
+        left: 18%;
+        right: 78%;
         border-radius:35px;
         filter:drop-shadow(12px 8px 12px rgb(0, 138, 202));
         mix-blend-mode:multiply;
